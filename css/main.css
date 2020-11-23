@@ -71,3 +71,17 @@ html {
  */
 
 /* stylelint-enable */
+
+@media (prefers-reduced-motion) {
+
+  .gear {
+    animation: none;
+  }
+
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: rgba(0, 0, 0, .4);;
+  }
+}
